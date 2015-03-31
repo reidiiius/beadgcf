@@ -1,0 +1,42 @@
+{{define "base"}}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{.}}</title>
+  <link rel="icon" href="/images/favicon.ico" type="image/ico">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/ico">
+  <link rel="stylesheet" href="/styles/main.css" type="text/css">
+  <script src="/scripts/draco.js" type="application/javascript"></script>
+</head>
+<body>
+  <div id="header">
+    <h1 id="page">{{.}}</h1>
+  </div>
+  <div id="navbar">
+    <ul class="menu">
+      <li><a href="/">Ursa Minor</a></li>
+      <li><a href="/sagittarius">Sagittarius</a></li>
+      <li><a href="/taurus">Taurus</a></li>
+      <li><a href="/libra">Libra</a></li>
+      <li><a href="/pisces">Pisces</a></li>
+      <li><a href="/leo">Leo</a></li>
+      <li><a href="/capricorn">Capricorn</a></li>
+      <li><a href="/gemini">Gemini</a></li>
+      <li><a href="/scorpio">Scorpio</a></li>
+      <li><a href="/aries">Aries</a></li>
+      <li><a href="/virgo">Virgo</a></li>
+      <li><a href="/aquarius">Aquarius</a></li>
+      <li><a href="/cancer">Cancer</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    {{template "content"}}
+  </div>
+  <div id="footer">
+    <p class="attr">© 2015 Reid Netterville III</p>
+  </div>
+</body>
+</html>
+{{end}}
+

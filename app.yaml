@@ -1,0 +1,26 @@
+application: celestialbeadgcf
+version: 0-0-1
+runtime: go
+api_version: go1
+
+handlers:
+
+- url: /images/favicon\.ico
+  static_files: static/images/favicon.ico
+  upload: static/images/favicon\.ico
+
+- url: /images/nautilyph\.png
+  static_files: static/images/nautilyph.png
+  upload: static/images/nautilyph\.png
+
+- url: /styles/main\.css
+  static_files: static/styles/main.css
+  upload: static/styles/main\.css
+
+- url: /scripts/draco\.js
+  static_files: static/scripts/draco.js
+  upload: static/scripts/draco\.js
+
+- url: /.*
+  script: _go_app
+
