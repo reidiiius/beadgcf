@@ -1,5 +1,5 @@
 application: celestialbeadgcf
-version: 0-0-1
+version: 0-0-2
 runtime: go
 api_version: go1
 
@@ -9,9 +9,9 @@ handlers:
   static_files: static/images/favicon.ico
   upload: static/images/favicon\.ico
 
-- url: /images/nautilyph\.png
-  static_files: static/images/nautilyph.png
-  upload: static/images/nautilyph\.png
+- url: /images/transpolaris\.png
+  static_files: static/images/transpolaris.png
+  upload: static/images/transpolaris\.png
 
 - url: /styles/main\.css
   static_files: static/styles/main.css

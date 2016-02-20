@@ -1,4 +1,4 @@
-/*  Copyright 2015 Reid Netterville III  */
+/*  Copyright 2015-2016 Reid Netterville III  */
 
 var scale = {
      j2:"HgHg PuFe ____ ____ CuNp PbAu ____ AuPb ____ AgUr ____ FePu ",
@@ -83,16 +83,16 @@ var scale = {
 j2k56x4:"HgHg PuFe ____ ____ CuNp ____ ____ AuPb NpCu ____ TiSn FePu ",
 j3k56x4:"HgTi ____ SnNp UrAu ____ ____ ____ AuUr NpSn ____ TiHg FeFe ",
 k1j56y7:"____ AuUr NpSn ____ TiHg FeFe HgTi ____ SnNp UrAu ____ ____ ",
-k2j56y7:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "}
+k2j56y7:"NpCu ____ ____ FePu HgHg PuFe SnTi ____ CuNp PbAu ____ ____ "};
 
 function diagram(s) {
-  document.writeln(s.slice(25,61).concat(s.slice(0,25)))
-  document.writeln(s.slice( 0,61).concat(s.slice(0, 0)))
-  document.writeln(s.slice(35,61).concat(s.slice(0,35)))
-  document.writeln(s.slice(10,61).concat(s.slice(0,10)))
-  document.writeln(s.slice(45,61).concat(s.slice(0,45)))
-  document.writeln(s.slice(20,61).concat(s.slice(0,20)))
-  document.writeln(s.slice(55,61).concat(s.slice(0,55)))
+  document.writeln(s.slice(25,61).concat(s.slice(0,25)));
+  document.writeln(s.slice( 0,61).concat(s.slice(0, 0)));
+  document.writeln(s.slice(35,61).concat(s.slice(0,35)));
+  document.writeln(s.slice(10,61).concat(s.slice(0,10)));
+  document.writeln(s.slice(45,61).concat(s.slice(0,45)));
+  document.writeln(s.slice(20,61).concat(s.slice(0,20)));
+  document.writeln(s.slice(55,61).concat(s.slice(0,55)));
 }
 
 function zodiac_j5(o) { return (o.slice(30,61).concat(o.slice(0,30))) }
@@ -109,50 +109,62 @@ function zodiac_n3(o) { return (o.slice(40,61).concat(o.slice(0,40))) }
 function zodiac_n7(o) { return (o.slice( 5,61).concat(o.slice(0, 5))) }
 
 function acubens(o) {
-  var s = zodiac_n4(o); diagram(s)
+  var s = zodiac_n4(o);
+  diagram(s);
 }
 
 function aldebaran(o) {
-  var s = zodiac_n5(o); diagram(s)
+  var s = zodiac_n5(o);
+  diagram(s);
 }
 
 function algedi(o) {
-  var s = zodiac_n7(o); diagram(s)
+  var s = zodiac_n7(o);
+  diagram(s);
 }
 
 function alpherg(o) {
-  var s = zodiac_n6(o); diagram(s)
+  var s = zodiac_n6(o);
+  diagram(s);
 }
 
 function antares(o) {
-  var s = zodiac_j2(o); diagram(s)
+  var s = zodiac_j2(o);
+  diagram(s);
 }
 
 function castorPollux(o) {
-  var s = zodiac_j5(o); diagram(s)
+  var s = zodiac_j5(o);
+  diagram(s);
 }
 
 function hamal(o) {
-  var s = zodiac_j6(o); diagram(s)
+  var s = zodiac_j6(o);
+  diagram(s);
 }
 
 function regulus(o) {
-  var s = zodiac_n3(o); diagram(s)
+  var s = zodiac_n3(o);
+  diagram(s);
 }
 
 function rukbat(o) {
-  var s = zodiac_n1(o); diagram(s)
+  var s = zodiac_n1(o);
+  diagram(s);
 }
 
 function sadalmelik(o) {
-  var s = zodiac_j7(o); diagram(s)
+  var s = zodiac_j7(o);
+  diagram(s);
 }
 
 function spica(o) {
-  var s = zodiac_j3(o); diagram(s)
+  var s = zodiac_j3(o);
+  diagram(s);
 }
 
 function zubenelgenubi(o) {
-  var s = zodiac_n2(o); diagram(s)
+  var s = zodiac_n2(o);
+  diagram(s);
 }
 

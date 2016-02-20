@@ -63,6 +63,7 @@ li {
   width:950px;
   padding:5px;
   background-color:#fffff0;
+  text-align:left;
 }
 .title {
   padding-left:20px;
@@ -72,6 +73,7 @@ li {
 }
 .txt {
   margin-left:50px;
+  margin-bottom:128px;
 }
 .xlsym {
   font-family:monospace;
@@ -89,9 +91,9 @@ li {
 .attr {
   font-family:helvetica,sans-serif;
   font-size:14px;
-  color:#bc8f8f;
+  color:#a0522d;
   background-color:#fffff0;
-  padding:0 0 10px 20px;
+  padding:5px 0 5px 20px;
 }
 @media screen and ( max-width:750px ) {
   #header {
@@ -144,6 +146,7 @@ li {
     width:auto;
     padding:auto;
     background-color:#fffff0;
+    text-align:center;
   }
   .title {
     padding-left:0;
@@ -152,8 +155,8 @@ li {
     color:#5f9ea0;
   }
   .txt {
-    text-align:center;
     margin-left:0;
+    margin-bottom:32px;
   }
   .xlsym {
     font-family:monospace;
@@ -172,7 +175,7 @@ li {
     text-align:center;
     font-family:helvetica,sans-serif;
     font-size:14px;
-    color:#bc8f8f;
+    color:#a0522d;
     background-color:#fffff0;
     padding:0;
   }
